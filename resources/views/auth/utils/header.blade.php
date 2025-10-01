@@ -1,7 +1,7 @@
 <header class="flex top-0 sticky justify-between items-center border-b-2 border-white/10 py-5 px-6 sm:px-12 bg-[#1D4ED8] backdrop-blur w-full z-50">
   <!-- Logo -->
   <div class="text-2xl font-bold text-white">
-    <img src="{{ asset('ikonn.png') }}" alt="" onclick="window.location.href ='/'">
+    <img src="{{ asset('ikonn.webp') }}" alt="" onclick="window.location.href ='/'">
   </div>
 
   <!-- Hamburger (mobile only) -->

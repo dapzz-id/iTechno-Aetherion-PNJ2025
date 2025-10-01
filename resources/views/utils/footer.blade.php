@@ -5,10 +5,6 @@
       <h3 class="text-2xl md:text-3xl font-semibold mb-3 text-white leading-tight">
         Stay Connected <br class="hidden sm:block"> with Infinia
       </h3>
-    </div>
-
-    <!-- Right Content -->
-    <div class="text-lg leading-relaxed text-white/90 space-y-2">
       <ul class="space-y-2 text-white/80">
                 <li class="flex items-center gap-2">
                     📧
@@ -19,6 +15,6 @@
                     <a href="tel:+6285183262007" class="hover:text-white">+62 851-8326-2007</a>
                 </li>
             </ul>
-    </div>
+    </div>  
   </div>
 </footer>

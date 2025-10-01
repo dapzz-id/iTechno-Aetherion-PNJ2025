@@ -25,17 +25,17 @@ Route::get('/{page}', function ($page) {
                 [
                     'username' => 'Kadavi',
                     'likes' => '1.4k',
-                    'image' => asset('search-image1.png')
+                    'image' => asset('search-image1.webp')
                 ],
                 [
                     'username' => 'Ataya',
                     'likes' => '1.9k',
-                    'image' => asset('search-image2.png')
+                    'image' => asset('search-image2.webp')
                 ],
                 [
                     'username' => 'Hanifah',
                     'likes' => '700',
-                    'image' => asset('search-image3.png')
+                    'image' => asset('search-image3.webp')
                 ],
             ]
         ];

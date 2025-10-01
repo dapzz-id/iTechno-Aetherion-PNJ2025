@@ -1,7 +1,7 @@
 <section id="home" class="hero text-center w-full bg-cover bg-center bg-no-repeat inset-0" style="background-image: url('{{ asset('bg_features.png') }}')">
     <div
         class="w-full bg-white/10 z-10 border border-white/50 shadow-3xl shadow-white mx-auto mb-5 lg:p-20 p-6 sm:p-10 rounded-2xl flex items-center justify-center text-sm text-white/70">
-        <img src="{{ asset('hero_img.png') }}" class="w-full max-w-md sm:max-w-2xl lg:max-w-4xl xl:max-w-[42rem]"
+        <img src="{{ asset('hero.webp') }}" class="w-full max-w-md sm:max-w-2xl lg:max-w-4xl xl:max-w-[42rem]"
             alt="">
     </div>
 

@@ -17,7 +17,7 @@
 
                     <!-- Podium pakai gambar -->
                     <div class="relative mt-4 @if($i == 1) w-42 @elseif($i == 0) w-36 @else w-32 @endif">
-                        <img src="{{ asset('podium.png') }}" alt="Podium"
+                        <img src="{{ asset('podium.webp') }}" alt="Podium"
                             class="
                                 w-full object-cover
                                 @if ($i == 1) h-40 z-10

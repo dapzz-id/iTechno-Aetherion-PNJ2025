@@ -1,7 +1,7 @@
 <section class="max-w-4xl mx-auto px-4 py-5">
     <!-- Gambar -->
     <div class="flex justify-center">
-        <img src="{{ asset('detail-karya-asset.png') }}" alt="Skincare Asset"
+        <img src="{{ asset('detail-karya-asset.webp') }}" alt="Skincare Asset"
             class="rounded-2xl shadow-md max-w-2xl w-full" />
     </div>
 

@@ -1,6 +1,6 @@
 <section 
     class="relative bg-cover bg-no-repeat bg-center py-16 sm:py-24 mt-12" 
-    style="background-image: url('{{ asset('bg_gallery.png') }}');"
+    style="background-image: url('{{ asset('bg_gallery.webp') }}');"
 >
     <div class="container mx-auto px-4 sm:px-6 relative z-10">
         <!-- Header -->
@@ -21,13 +21,13 @@
         <!-- Gallery Items -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:mb-30 mb-48">
             <div class="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
-                <img src="{{ asset('gallery1.png') }}" alt="Gallery 1" class="w-full h-full object-cover">
+                <img src="{{ asset('gallery1.webp') }}" alt="Gallery 1" class="w-full h-full object-cover">
             </div>
             <div class="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
-                <img src="{{ asset('gallery2.png') }}" alt="Gallery 2" class="w-full h-full object-cover">
+                <img src="{{ asset('gallery2.webp') }}" alt="Gallery 2" class="w-full h-full object-cover">
             </div>
             <div class="rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
-                <img src="{{ asset('gallery3.png') }}" alt="Gallery 3" class="w-full h-full object-cover">
+                <img src="{{ asset('gallery3.webp') }}" alt="Gallery 3" class="w-full h-full object-cover">
             </div>
         </div>
     </div>

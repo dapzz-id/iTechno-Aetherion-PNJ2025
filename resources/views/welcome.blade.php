@@ -264,6 +264,9 @@
         /* FAQ Section */
         .faq-section {
             padding: 80px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            width: 100%;
+            margin: 0;
         }
 
         .faq-section h2 {
@@ -272,13 +275,33 @@
             margin-bottom: 40px;
         }
 
+        .faq-section .w-full {
+            width: 100% !important;
+            max-width: none !important;
+        }
+
+        .faq-section {
+            padding-left: 4px !important;
+            padding-right: 4px !important;
+        }
+
+        .faq-section > div {
+            width: 100% !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
         .faq-item {
-            background: rgba(255, 255, 255, 0.1);
+            background: white;
             margin-bottom: 15px;
             border-radius: 10px;
             overflow: hidden;
-            border: 1px solid transparent;
+            border: 1px solid #e5e7eb;
             transition: all 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100% !important;
+            max-width: none !important;
         }
 
         .faq-question {
@@ -287,10 +310,12 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background: white;
+            transition: all 0.3s;
         }
 
         .faq-question:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background: #f9fafb;
         }
 
         .faq-arrow {
@@ -298,7 +323,12 @@
         }
 
         .faq-item.active {
-            border-color: white;
+            border-color: #3b82f6;
+            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+        }
+
+        .faq-item.active .faq-question {
+            background: white;
         }
 
         .faq-item.active .faq-arrow {
@@ -310,11 +340,19 @@
             max-height: 0;
             overflow: hidden;
             transition: all 0.3s;
+            background: white !important;
         }
 
         .faq-item.active .faq-answer {
             max-height: 200px;
             padding: 0 20px 20px;
+            background: white !important;
+        }
+
+        .faq-item.active .faq-answer div {
+            background: white !important;
+            color: #143072;
+            opacity: 0.7;
         }
 
         /* Running Text */
@@ -545,6 +583,81 @@
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
         </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section py-20" style="padding-left: 4px; padding-right: 4px;">
+            <div class="w-full" style="margin: 0; padding: 0; width: 100%;">
+                <h2 class="text-4xl text-center font-bold mb-10 text-stroke">FAQ</h2>
+
+                <!-- FAQ item 1 -->
+                <div class="faq-item mb-4 rounded-xl overflow-hidden w-full">
+                    <div class="faq-question bg-white p-3 md:p-8 cursor-pointer flex justify-between items-center hover:bg-gray-100 transition-colors">
+                        <span class="font-medium" style="color: #143072;">
+                            Apakah platform ini bisa diakses di mobile dan desktop?
+                        </span>
+                        <span class="faq-arrow flex items-center justify-center w-6 h-6 md:w-8 md:h-8 aspect-square shrink-0 rounded-full bg-blue-600 text-white transition-transform ml-3 md:ml-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-3 md:px-8 pb-5">Ya, platform kami responsif di semua device.</div>
+                    </div>
+                </div>
+
+                <!-- FAQ item 2 -->
+                <div class="faq-item mb-4 rounded-xl overflow-hidden w-full">
+                    <div class="faq-question bg-white p-3 md:p-8 cursor-pointer flex justify-between items-center hover:bg-gray-100 transition-colors">
+                        <span class="font-medium" style="color: #143072;">
+                            Apakah platform ini cocok buat tech enthusiast saja?
+                        </span>
+                        <span class="faq-arrow flex items-center justify-center w-6 h-6 md:w-8 md:h-8 aspect-square shrink-0 rounded-full bg-blue-600 text-white transition-transform ml-3 md:ml-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-3 md:px-8 pb-5">Tidak, cocok untuk semua kalangan.</div>
+                    </div>
+                </div>
+
+                <!-- FAQ item 3 -->
+                <div class="faq-item mb-4 rounded-xl overflow-hidden w-full">
+                    <div class="faq-question bg-white p-3 md:p-8 cursor-pointer flex justify-between items-center hover:bg-gray-100 transition-colors">
+                        <span class="font-medium" style="color: #143072;">
+                            Apa yang ditampilkan dalam fitur Exhibition?
+                        </span>
+                        <span class="faq-arrow flex items-center justify-center w-6 h-6 md:w-8 md:h-8 aspect-square shrink-0 rounded-full bg-blue-600 text-white transition-transform ml-3 md:ml-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-3 md:px-8 pb-5">Karya digital pilihan pengguna.</div>
+                    </div>
+                </div>
+
+                <!-- FAQ item 4 -->
+                <div class="faq-item mb-4 rounded-xl overflow-hidden w-full">
+                    <div class="faq-question bg-white p-3 md:p-8 cursor-pointer flex justify-between items-center hover:bg-gray-100 transition-colors">
+                        <span class="font-medium" style="color: #143072;">
+                            Apakah fitur ini redirect ke halaman lain?
+                        </span>
+                        <span class="faq-arrow flex items-center justify-center w-6 h-6 md:w-8 md:h-8 aspect-square shrink-0 rounded-full bg-blue-600 text-white transition-transform ml-3 md:ml-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-3 md:px-8 pb-5">Sebagian fitur redirect ke halaman khusus.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -561,16 +674,39 @@
     <script>
         // FAQ Functionality
         document.querySelectorAll('.faq-question').forEach(question => {
-            question.addEventListener('click', () => {
+            question.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                
                 const faqItem = question.parentElement;
-                faqItem.classList.toggle('active');
+                const answer = faqItem.querySelector('.faq-answer');
+                const arrow = question.querySelector('.faq-arrow');
                 
                 // Close other items
                 document.querySelectorAll('.faq-item').forEach(item => {
                     if (item !== faqItem) {
                         item.classList.remove('active');
-                  z  }
+                        const otherAnswer = item.querySelector('.faq-answer');
+                        const otherArrow = item.querySelector('.faq-arrow');
+                        if (otherAnswer) otherAnswer.style.maxHeight = null;
+                        if (otherArrow) otherArrow.classList.remove('rotate-180');
+                    }
                 });
+                
+                // Toggle current item
+                if (faqItem.classList.contains('active')) {
+                    faqItem.classList.remove('active');
+                    if (answer) answer.style.maxHeight = null;
+                    if (arrow) arrow.classList.remove('rotate-180');
+                } else {
+                    faqItem.classList.add('active');
+                    if (answer) {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    }
+                    if (arrow) {
+                        arrow.classList.add('rotate-180');
+                    }
+                }
             });
         });
 

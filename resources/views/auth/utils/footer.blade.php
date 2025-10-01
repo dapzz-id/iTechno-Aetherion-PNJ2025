@@ -5,7 +5,7 @@
             <h3 class="text-4xl font-bold mb-3">INFINIA</h3>
             <hr class="border-white/50 mb-4">
             <div class="flex flex-col lg:flex-row items-start gap-3">
-                <img src="{{ asset('ikonn.png') }}" alt="icon" class="w-16 h-16">
+                <img src="{{ asset('ikonn.webp') }}" alt="icon" class="w-16 h-16">
                 <p class="text-sm leading-relaxed text-white/80 text-justify mx-3 lg:ml-0 lg:mr-6">
                     Platform modern untuk terhubung dan saling menginspirasi, memberi ruang sederhana
                     namun hangat untuk berekspresi bebas.

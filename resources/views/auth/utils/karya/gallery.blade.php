@@ -15,13 +15,13 @@
             <!-- Right Image Strips -->
             <div class="lg:flex hidden flex-col md:flex-row h-72 md:h-96 justify-center md:ml-36 space-y-4 md:space-y-0 md:space-x-4">
                 <div class="relative w-2/3 md:w-1/6 bg-contain bg-no-repeat bg-center rounded-lg overflow-hidden mx-auto md:mx-0"
-                    style="background-image: url('{{ asset('gallery-asset1.png') }}')">
+                    style="background-image: url('{{ asset('gallery-asset1.webp') }}')">
                 </div>
                 <div class="relative w-2/3 md:w-1/6 bg-contain bg-no-repeat bg-center rounded-lg overflow-hidden mx-auto md:mx-0"
-                    style="background-image: url('{{ asset('gallery-asset2.png') }}')">
+                    style="background-image: url('{{ asset('gallery-asset2.webp') }}')">
                 </div>
                 <div class="relative w-2/3 md:w-1/6 bg-contain bg-no-repeat bg-center rounded-lg overflow-hidden mx-auto md:mx-0"
-                    style="background-image: url('{{ asset('gallery-asset3.png') }}')">
+                    style="background-image: url('{{ asset('gallery-asset3.webp') }}')">
                 </div>
             </div>
         </div>
